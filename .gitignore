@@ -1,0 +1,8 @@
+node_modules/
+.next/
+.env.local
+.env
+.env.*
+!.env.example
+BACKUP_ANTES_CONTROL_MUESTRA_V25/
+*.log

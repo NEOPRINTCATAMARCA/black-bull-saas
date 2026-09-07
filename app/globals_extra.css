@@ -1,0 +1,12 @@
+
+.errorBox {
+  margin-top:14px;
+  padding:14px;
+  border-radius:12px;
+  background:#fff0f0;
+  border:1px solid #ffd3d3;
+}
+.errorBox p {
+  margin:6px 0 0;
+  font-size:14px;
+}
