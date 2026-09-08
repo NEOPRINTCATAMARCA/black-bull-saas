@@ -329,7 +329,7 @@ export default function OrderClient({ data }: { data: Data }) {
         const { data: rows, error } = await supabase
           .from('business_hours')
           .select('*')
-          .eq('business_id', data.business.id)
+          .eq('business_id', (data.business as { id?: string }).id ?? '')
           .eq('day_of_week', dayOfWeek)
 
         if (error || !rows || rows.length === 0) {
@@ -366,7 +366,7 @@ export default function OrderClient({ data }: { data: Data }) {
     }
 
     loadTodayHours()
-  }, [data.business.id])
+  }, [(data.business as { id?: string }).id ?? ''])
 
   useEffect(() => {
     async function loadBranding() {
