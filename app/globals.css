@@ -528,3 +528,63 @@ textarea {
     grid-template-columns: repeat(5, 280px);
   }
 }
+
+
+/* BLACK BULL - AJUSTE FINAL COLUMNAS */
+.ownerPanelPage{
+  width:100% !important;
+  max-width:100% !important;
+  overflow-x:hidden !important;
+}
+.kanban{
+  width:100% !important;
+  max-width:100% !important;
+  grid-template-columns:repeat(5,minmax(0,1fr)) !important;
+  overflow-x:hidden !important;
+}
+.kanbanColumn{
+  min-width:0 !important;
+  width:auto !important;
+}
+.kanbanHeader{
+  min-width:0 !important;
+  gap:6px !important;
+}
+@media (min-width:1000px){
+  .kanbanColumn{
+    padding:8px !important;
+  }
+  .kanbanHeader{
+    font-size:14px !important;
+  }
+}
+
+
+/* BLACK BULL - AJUSTE FINAL COLUMNAS */
+.ownerPanelPage{
+  width:100% !important;
+  max-width:100% !important;
+  overflow-x:hidden !important;
+}
+.kanban{
+  width:100% !important;
+  max-width:100% !important;
+  grid-template-columns:repeat(5,minmax(0,1fr)) !important;
+  overflow-x:hidden !important;
+}
+.kanbanColumn{
+  min-width:0 !important;
+  width:auto !important;
+}
+.kanbanHeader{
+  min-width:0 !important;
+  gap:6px !important;
+}
+@media (min-width:1000px){
+  .kanbanColumn{
+    padding:8px !important;
+  }
+  .kanbanHeader{
+    font-size:14px !important;
+  }
+}
