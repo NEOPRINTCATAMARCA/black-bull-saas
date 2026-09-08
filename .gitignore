@@ -6,3 +6,14 @@ node_modules/
 !.env.example
 BACKUP_ANTES_CONTROL_MUESTRA_V25/
 *.log
+
+# OpenNext
+.open-next
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.open-next/
+.wrangler/
+.dev.vars
